@@ -9,7 +9,7 @@ def bonus_box():
             """/html/body/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div/section/div/div[5]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/div/div/button""").click()
         print("점수 획득!", datetime.datetime.now())
 
-        threading.Timer(1500, bonus_box).start()
+        threading.Timer(900, bonus_box).start()
     except:
         threading.Timer(10, bonus_box).start()
 
